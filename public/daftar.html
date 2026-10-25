@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MainKapan | Daftar</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <main class="split">
+        <aside class="auth-art"><a class="brand" href="/" style="color:white">MainKapan</a>
+            <h1>Waktunya bermain.</h1>
+            <p>Buat akun dan atur jadwal olahraga Anda dengan mudah.</p>
+            <ul>
+                <li>Jadwal lapangan terkini</li>
+                <li>Booking cepat dan aman</li>
+                <li>Kelola reservasi Anda</li>
+            </ul>
+        </aside>
+        <section class="auth-main">
+            <div class="form-card"><a class="brand" href="/">MainKapan</a>
+                <h1>Buat akun</h1>
+                <p class="muted">Isi data di bawah untuk mulai memesan.</p>
+                <div class="alert"></div>
+                <form id="register">
+                    <div class="field"><label for="name">Nama lengkap</label>
+                        <div class="input-wrap"><input autofocus id="name" name="name"
+                                autocomplete="name" required></div>
+                    </div>
+                    <div class="field"><label for="email">Email</label>
+                        <div class="input-wrap"><input id="email" type="email" name="email"
+                                autocomplete="email" required></div>
+                    </div>
+                    <div class="field"><label for="whatsapp">Nomor WhatsApp</label>
+                        <div class="input-wrap"><input id="whatsapp" name="whatsapp"
+                                autocomplete="tel" required></div>
+                    </div>
+                    <div class="field"><label for="password">Password</label>
+                        <div class="input-wrap"><input id="password" type="password"
+                                name="password" autocomplete="new-password" minlength="8" required><button type="button"
+                                class="password-toggle">Tampilkan</button></div>
+                        <div class="strength"><i></i></div><span class="small" id="strength-label">Minimal 8
+                            karakter</span>
+                    </div><button type="submit" class="btn" style="width:100%">Daftar</button>
+                </form>
+                <p class="muted">Sudah punya akun? <a href="/masuk.html" style="color:#16a34a;font-weight:700">Masuk</a>
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="/js/app.js"></script>
+    <script src="/js/auth-page.js"></script>
+</body>
+
+</html>

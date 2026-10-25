@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MainKapan</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav class="nav container"><a class="brand" href="/">MainKapan</a>
+        <div class="navlinks"><a href="/#lapangan">Lapangan</a><a href="/reservasi-saya.html">Reservasi Saya</a></div>
+        <div class="actions" id="nav-user"></div>
+    </nav>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Atur waktu bermain, tanpa ribet.</h1>
+                <p>Pesan lapangan futsal dan badminton favorit Anda dengan cepat dan jelas.</p><a class="btn"
+                    href="#lapangan">Pesan Sekarang</a>
+            </div>
+        </section>
+        <section class="section container" id="lapangan">
+            <div class="section-head">
+                <div>
+                    <h2>Lapangan tersedia</h2>
+                    <p class="muted">Pilih lapangan yang sesuai dengan permainan Anda.</p>
+                </div>
+                <div class="tabs"><button class="tab active" data-type="all">Semua</button><button class="tab"
+                        data-type="futsal">Futsal</button><button class="tab" data-type="badminton">Badminton</button>
+                </div>
+            </div>
+            <div id="courts" class="cards">
+                <div class="skeleton"></div>
+            </div>
+        </section>
+    </main>
+    <script src="/js/app.js"></script>
+    <script src="/js/home.js"></script>
+</body>
+
+</html>
